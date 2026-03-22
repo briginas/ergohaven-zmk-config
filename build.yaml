@@ -12,6 +12,3 @@ include:
     artifact-name: op36_left_ruen-ergohaven-zmk
   - board: ergohaven
     shield: op36_right
-
-  - board: ergohaven
-    shield: settings_reset
