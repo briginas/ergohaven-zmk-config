@@ -131,8 +131,8 @@
             bindings = <
   &kp Q              &kp W         &kp E            &kp R            &kp T                          &kp Y  &kp U             &kp I             &kp O                 &kp P
   &hml LEFT_SHIFT A  &hml LCTRL S  &hml LEFT_GUI D  &hml LEFT_ALT F  &kp G                          &kp H  &hmr RIGHT_ALT J  &hmr RIGHT_GUI K  &hmr RIGHT_CONTROL L  &hmr RIGHT_SHIFT SEMICOLON
-  &kp Z              &kp X         &kp C            &kp V            &kp B                          &kp N  &kp M             &kp COMMA         &kp DOT               &kp SQT
-                                                    &kp BACKSPACE    &mo 4  &kp SPACE    &kp ENTER  &mo 2  &kp TAB
+  &kp Z              &kp X         &kp C            &kp V            &kp B                          &kp N  &kp M             &kp COMMA         &kp DOT               &kp SLASH
+                                                    &kp TAB          &mo 4  &kp SPACE    &kp ENTER  &mo 2  &none
             >;
 
             display-name = "Base";
@@ -143,7 +143,7 @@
   &kp RU_CYRILLIC_SHORT_I         &kp RU_CYRILLIC_TSE                 &kp RU_CYRILLIC_U             &kp RU_CYRILLIC_KA            &kp RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE          &kp RU_CYRILLIC_SHA            &kp RU_CYRILLIC_SHCHA              &kp RU_CYRILLIC_ZE
   &hml LEFT_SHIFT RU_CYRILLIC_EF  &hml LEFT_CONTROL RU_CYRILLIC_YERU  &hml LEFT_GUI RU_CYRILLIC_VE  &hml RIGHT_ALT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr LEFT_ALT RU_CYRILLIC_O  &hmr RIGHT_GUI RU_CYRILLIC_EL  &hmr RIGHT_CONTROL RU_CYRILLIC_DE  &hmr RIGHT_SHIFT RU_CYRILLIC_ZHE
   &kp RU_CYRILLIC_YA              &kp RU_CYRILLIC_CHE                 &kp RU_CYRILLIC_ES            &kp RU_CYRILLIC_EM            &kp RU_CYRILLIC_I                           &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN    &kp RU_CYRILLIC_BE             &kp RU_CYRILLIC_YU                 &kp RU_CYRILLIC_E
-                                                                                                    &kp BACKSPACE                 &mo 4               &kp SPACE    &kp ENTER  &mo 3               &kp TAB
+                                                                                                    &kp TAB                       &mo 4               &kp SPACE    &kp ENTER  &mo 3               &kp TAB
             >;
 
             display-name = "Ru";
@@ -151,10 +151,10 @@
 
         sym_en {
             bindings = <
-  &kp TILDE       &kp LT          &kp EQUAL         &kp GT           &kp GRAVE                    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
-  &hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-  &kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS                     &kp AT     &kp PIPE         &kp COMMA        &kp DOT         &kp QMARK
-                                                    &trans           &mo 5      &trans    &trans  &none      &trans
+  &kp EXCL        &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                    &kp CARET  &kp AMPERSAND     &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                    &none      &hmr RCTRL EQUAL  &kp RSHFT         &kp LALT              &hmr RIGHT_SHIFT SINGLE_QUOTE
+  &none           &none             &none         &none         &none                        &kp NUBS   &kp MINUS         &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &none
+                                                  &trans        &mo 5      &trans    &trans  &none      &trans
             >;
 
             display-name = "Symbols";
@@ -173,10 +173,10 @@
 
         nav {
             bindings = <
-  &kp N1               &kp N2            &kp N3        &kp N4        &kp N5                        &kp N6    &kp N7               &kp N8                   &kp N9                    &kp N0
-  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp ENTER                     &kp LEFT  &hmr RIGHT_ALT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_CONTROL RIGHT  &hmr RIGHT_SHIFT TAB
-  &layer_en            &none             &none         &none         &kp DELETE                    &none     &none                &none                    &none                     &layer_ru
-                                                       &trans        &none       &trans    &trans  &mo 5     &trans
+  &kp N1               &kp N2            &kp N3        &kp N4        &kp N5                    &kp N6    &kp N7               &kp N8                   &kp N9                    &kp N0
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &none                     &kp LEFT  &hmr RIGHT_ALT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_CONTROL RIGHT  &hmr RIGHT_SHIFT TAB
+  &layer_en            &none             &none         &none         &none                     &none     &none                &none                    &none                     &layer_ru
+                                                       &trans        &none   &trans    &trans  &mo 5     &trans
             >;
 
             display-name = "Nav";
@@ -184,10 +184,10 @@
 
         adj {
             bindings = <
-  &bootloader  &kp F1        &kp F2         &kp F3         &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1         &bt BT_SEL 2       &bt BT_SEL 3        &bt BT_CLR
-  &kp LGUI     &hml LALT F5  &hml LSHFT F6  &hml LCTRL F7  &kp F8                     &out OUT_BLE  &hmr RCTRL C_VOL_DN  &hmr RSHFT C_MUTE  &hmr LALT C_VOL_UP  &kp RGUI
-  &none        &kp F9        &kp F10        &kp F11        &kp F12                    &out OUT_USB  &kp C_PREV           &kp C_PP           &kp C_NEXT          &studio_unlock
-                                            &trans         &trans   &trans    &trans  &trans        &trans
+  &bootloader     &kp F1                &kp F2            &kp F3            &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1             &bt BT_SEL 2           &bt BT_SEL 3                 &bt BT_CLR
+  &kp LEFT_SHIFT  &hml LEFT_CONTROL F5  &hml LEFT_GUI F6  &hml LEFT_ALT F7  &kp F8                     &out OUT_BLE  &hmr RIGHT_ALT C_VOL_DN  &hmr RIGHT_GUI C_MUTE  &hmr RIGHT_CONTROL C_VOL_UP  &kp RIGHT_SHIFT
+  &none           &kp F9                &kp F10           &kp F11           &kp F12                    &out OUT_USB  &kp C_PREV               &kp C_PP               &kp C_NEXT                   &studio_unlock
+                                                          &trans            &trans   &trans    &trans  &trans        &trans
             >;
 
             display-name = "Adjust";
