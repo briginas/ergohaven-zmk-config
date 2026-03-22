@@ -132,7 +132,7 @@
   &kp Q              &kp W         &kp E            &kp R            &kp T                          &kp Y  &kp U             &kp I             &kp O                 &kp P
   &hml LEFT_SHIFT A  &hml LCTRL S  &hml LEFT_GUI D  &hml LEFT_ALT F  &kp G                          &kp H  &hmr RIGHT_ALT J  &hmr RIGHT_GUI K  &hmr RIGHT_CONTROL L  &hmr RIGHT_SHIFT SEMICOLON
   &kp Z              &kp X         &kp C            &kp V            &kp B                          &kp N  &kp M             &kp COMMA         &kp DOT               &kp SLASH
-                                                    &kp TAB          &mo 4  &kp SPACE    &kp ENTER  &mo 2  &none
+                                                    &kp TAB          &mo 2  &kp SPACE    &kp ENTER  &mo 4  &none
             >;
 
             display-name = "Base";
@@ -143,7 +143,7 @@
   &kp RU_CYRILLIC_SHORT_I         &kp RU_CYRILLIC_TSE                 &kp RU_CYRILLIC_U             &kp RU_CYRILLIC_KA            &kp RU_CYRILLIC_IE                          &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE          &kp RU_CYRILLIC_SHA            &kp RU_CYRILLIC_SHCHA              &kp RU_CYRILLIC_ZE
   &hml LEFT_SHIFT RU_CYRILLIC_EF  &hml LEFT_CONTROL RU_CYRILLIC_YERU  &hml LEFT_GUI RU_CYRILLIC_VE  &hml RIGHT_ALT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                          &kp RU_CYRILLIC_ER  &hmr LEFT_ALT RU_CYRILLIC_O  &hmr RIGHT_GUI RU_CYRILLIC_EL  &hmr RIGHT_CONTROL RU_CYRILLIC_DE  &hmr RIGHT_SHIFT RU_CYRILLIC_ZHE
   &kp RU_CYRILLIC_YA              &kp RU_CYRILLIC_CHE                 &kp RU_CYRILLIC_ES            &kp RU_CYRILLIC_EM            &kp RU_CYRILLIC_I                           &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN    &kp RU_CYRILLIC_BE             &kp RU_CYRILLIC_YU                 &kp RU_CYRILLIC_E
-                                                                                                    &kp TAB                       &mo 4               &kp SPACE    &kp ENTER  &mo 3               &kp TAB
+                                                                                                    &kp TAB                       &mo 3               &kp SPACE    &kp ENTER  &mo 4               &kp TAB
             >;
 
             display-name = "Ru";
@@ -151,10 +151,10 @@
 
         sym_en {
             bindings = <
-  &kp EXCL        &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                    &kp CARET  &kp AMPERSAND     &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                    &none      &hmr RCTRL EQUAL  &kp RSHFT         &kp LALT              &hmr RIGHT_SHIFT SINGLE_QUOTE
-  &none           &none             &none         &none         &none                        &kp NUBS   &kp MINUS         &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &none
-                                                  &trans        &mo 5      &trans    &trans  &none      &trans
+  &kp EXCL             &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                    &kp CARET  &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                    &none      &hmr RIGHT_ALT EQUAL  &kp RIGHT_GUI     &kp RIGHT_CONTROL     &hmr RIGHT_SHIFT SINGLE_QUOTE
+  &none                &none             &none         &none         &none                        &kp NUBS   &kp MINUS             &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &none
+                                                       &trans        &none      &trans    &trans  &mo 5      &trans
             >;
 
             display-name = "Symbols";
@@ -162,10 +162,10 @@
 
         sym_ru {
             bindings = <
-  &en TILDE               &en LT          &kp EQUAL         &en GT           &en GRAVE                    &en CARET  &en LBKT  &kp UNDER           &en RBKT    &en DLLR
-  &hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS                     &kp PRCNT  &en LBRC  &hmr RSHFT RU_SEMI  &en RBRC    &hmr RGUI EXCL
-  &en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS                     &en AT     &en PIPE  &kp RU_COMMA        &kp RU_DOT  &kp RU_QMARK
-                                                            &trans           &mo 5      &trans    &trans  &none      &trans
+  &en EXCL             &en AT_SIGN       &kp HASH      &en DOLLAR    &en PRCNT                    &kp CARET  &en AMPERSAND         &kp ASTERISK   &en LEFT_PARENTHESIS  &en RIGHT_PARENTHESIS
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                    &none      &hmr RIGHT_ALT EQUAL  &kp RIGHT_GUI  &kp RIGHT_CONTROL     &hmr RIGHT_SHIFT SINGLE_QUOTE
+  &none                &none             &none         &none         &none                        &en NUBS   &en MINUS             &kp RU_COMMA   &kp RU_DOT            &kp RU_QMARK
+                                                       &trans        &none      &trans    &trans  &mo 5      &trans
             >;
 
             display-name = "Symbols";
@@ -174,9 +174,9 @@
         nav {
             bindings = <
   &kp N1               &kp N2            &kp N3        &kp N4        &kp N5                    &kp N6    &kp N7               &kp N8                   &kp N9                    &kp N0
-  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &none                     &kp LEFT  &hmr RIGHT_ALT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_CONTROL RIGHT  &hmr RIGHT_SHIFT TAB
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &none                     &kp LEFT  &hmr RIGHT_ALT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_CONTROL RIGHT  &kp RIGHT_SHIFT
   &layer_en            &none             &none         &none         &none                     &none     &none                &none                    &none                     &layer_ru
-                                                       &trans        &none   &trans    &trans  &mo 5     &trans
+                                                       &trans        &mo 5   &trans    &trans  &none     &trans
             >;
 
             display-name = "Nav";
