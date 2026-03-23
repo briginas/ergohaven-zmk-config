@@ -58,10 +58,10 @@
 
         sym_en {
             bindings = <
-  &kp EXCL             &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                           &kp CARET      &kp AMPERSAND         &kp ASTERISK               &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS
-  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                           &none          &hmr RIGHT_ALT EQUAL  &hmr RIGHT_GUI LEFT_BRACE  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_SHIFT SINGLE_QUOTE
-  &kp TAB              &mo 2             &none         &mo 2         &none                               &kp BACKSLASH  &kp MINUS             &kp LEFT_BRACKET           &kp RIGHT_BRACKET               &none
-                                                       &trans        &none      &trans    &kp BACKSPACE  &mo 3          &trans
+  &kp EXCL             &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                           &none  &kp AMPERSAND         &kp ASTERISK               &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                           &none  &hmr RIGHT_ALT EQUAL  &hmr RIGHT_GUI LEFT_BRACE  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_SHIFT SINGLE_QUOTE
+  &kp TAB              &mo 2             &none         &none         &none                               &none  &kp MINUS             &kp LEFT_BRACKET           &kp RIGHT_BRACKET               &kp BACKSLASH
+                                                       &trans        &none      &trans    &kp BACKSPACE  &mo 3  &trans
             >;
 
             display-name = "Symbols";
@@ -78,12 +78,12 @@
             display-name = "Nav";
         };
 
-        layer_4 {
+        dev {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-                          &trans  &trans  &trans    &trans  &trans  &trans
+  &trans  &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &kp LS(LA(LG(F)))  &trans                    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
+                          &trans             &trans  &trans    &trans  &trans  &trans
             >;
         };
 
