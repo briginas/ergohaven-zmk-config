@@ -151,9 +151,9 @@
 
         sym_en {
             bindings = <
-  &kp EXCL             &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                           &kp CARET      &kp AMPERSAND         &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                           &none          &hmr RIGHT_ALT EQUAL  &kp RIGHT_GUI     &kp RIGHT_CONTROL     &hmr RIGHT_SHIFT SINGLE_QUOTE
-  &kp GRAVE            &none             &none         &none         &none                               &kp BACKSLASH  &kp MINUS             &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &none
+  &kp EXCL             &kp AT_SIGN       &kp HASH      &kp DOLLAR    &kp PRCNT                           &kp CARET      &kp AMPERSAND         &kp ASTERISK               &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET                           &none          &hmr RIGHT_ALT EQUAL  &hmr RIGHT_GUI LEFT_BRACE  &hmr RIGHT_CONTROL RIGHT_BRACE  &hmr RIGHT_SHIFT SINGLE_QUOTE
+  &kp GRAVE            &none             &none         &none         &none                               &kp BACKSLASH  &kp MINUS             &kp LEFT_BRACKET           &kp RIGHT_BRACKET               &none
                                                        &trans        &none      &trans    &kp BACKSPACE  &mo 5          &trans
             >;
 
