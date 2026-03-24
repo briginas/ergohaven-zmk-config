@@ -40,7 +40,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <12 17>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
