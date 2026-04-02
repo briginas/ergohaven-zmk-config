@@ -87,10 +87,10 @@
 
         dev {
             bindings = <
-  &trans  &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &kp LS(LA(LG(F)))  &trans                    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
-                          &trans             &trans  &trans    &trans  &trans  &trans
+  &trans     &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
+  &trans     &trans  &trans  &kp LS(LA(LG(F)))  &trans                    &trans  &trans  &trans  &trans  &trans
+  &kp GRAVE  &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
+                             &trans             &trans  &trans    &trans  &trans  &trans
             >;
         };
 
