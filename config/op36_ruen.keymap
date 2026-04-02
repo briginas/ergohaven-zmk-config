@@ -87,9 +87,9 @@
 
         dev {
             bindings = <
-  &trans     &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
-  &trans     &trans  &trans  &kp LS(LA(LG(F)))  &trans                    &trans  &trans  &trans  &trans  &trans
-  &kp GRAVE  &trans  &trans  &trans             &trans                    &trans  &trans  &trans  &trans  &trans
+  &trans     &trans  &trans  &trans             &trans                    &trans  &trans         &trans         &trans             &trans
+  &trans     &trans  &trans  &kp LS(LA(LG(F)))  &trans                    &trans  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT
+  &kp GRAVE  &trans  &trans  &trans             &trans                    &trans  &trans         &trans         &trans             &trans
                              &trans             &trans  &trans    &trans  &trans  &trans
             >;
         };
