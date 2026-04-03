@@ -76,10 +76,10 @@
 
         nav {
             bindings = <
-  &kp N1               &kp N2            &kp N3        &kp N4        &kp N5                           &kp N6    &kp N7               &kp N8                   &kp N9                    &kp N0
-  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp NUMBER_6                     &kp LEFT  &hmr RIGHT_ALT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_CONTROL RIGHT  &kp RIGHT_SHIFT
-  &kp GRAVE            &none             &none         &none         &none                            &none     &none                &none                    &none                     &none
-                                                       &trans        &mo 3         &kp TAB    &trans  &none     &trans
+  &kp N1               &kp N2            &kp N3        &kp N4        &kp N5                           &kp N6       &kp N7               &kp N8                   &kp N9                    &kp N0
+  &hml LEFT_SHIFT ESC  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp NUMBER_6                     &kp LEFT     &hmr RIGHT_ALT DOWN  &hmr RIGHT_GUI UP_ARROW  &hmr RIGHT_CONTROL RIGHT  &kp RIGHT_SHIFT
+  &kp GRAVE            &none             &none         &none         &none                            &bootloader  &none                &none                    &none                     &none
+                                                       &trans        &mo 3         &kp TAB    &trans  &none        &trans
             >;
 
             display-name = "Nav";
