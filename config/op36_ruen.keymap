@@ -47,6 +47,11 @@
             bindings = <&kp ESC>;
             key-positions = <12 17>;
         };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <10 19>;
+        };
     };
 
     keymap {
