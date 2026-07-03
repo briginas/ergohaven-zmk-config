@@ -9,8 +9,20 @@ from pathlib import Path
 
 
 SVG_WIDTH = 820
-LAYER_STEP_Y = 330
-BOTTOM_MARGIN = 58
+LAYER_STEP_Y = 466
+BOTTOM_MARGIN = 60
+PANEL_X = 32
+PANEL_Y = 38
+PANEL_W = 756
+PANEL_H = 404
+BAR_X = 52
+BAR_Y = 54
+BAR_W = 6
+BAR_H = PANEL_H - 32
+TITLE_Y = 62
+NOTE_Y = 88
+KEY_OFFSET_Y = 62
+COMBO_Y = PANEL_Y + PANEL_H - 22
 KEY_W = 48
 KEY_H = 42
 KEY_CENTER_X = KEY_W / 2
@@ -419,19 +431,19 @@ def svg_key(key: Key, x: int, y: int, rotation: int) -> str:
 def svg_layer(layer: Layer, offset_y: int) -> str:
     lines = [
         f'<g id="{layer.id}" transform="translate(0 {offset_y})">',
-        '<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>',
-        f'<rect class="{layer.bar}" x="52" y="54" width="6" height="242" rx="3"/>',
-        f'<text class="title-text" x="410" y="62">{escape(layer.name)}</text>',
-        f'<text class="note-text" x="410" y="84">{escape(layer.note)}</text>',
+        f'<rect class="layer-panel" x="{PANEL_X}" y="{PANEL_Y}" width="{PANEL_W}" height="{PANEL_H}" rx="18"/>',
+        f'<rect class="{layer.bar}" x="{BAR_X}" y="{BAR_Y}" width="{BAR_W}" height="{BAR_H}" rx="3"/>',
+        f'<text class="title-text" x="410" y="{TITLE_Y}">{escape(layer.name)}</text>',
+        f'<text class="note-text" x="410" y="{NOTE_Y}">{escape(layer.note)}</text>',
         "",
     ]
     for idx, key in enumerate(layer.keys):
         x, y, rotation = KEY_POSITIONS[idx]
-        lines.append(svg_key(key, x, y, rotation))
+        lines.append(svg_key(key, x, y + KEY_OFFSET_Y, rotation))
         if idx in {9, 19, 29}:
             lines.append("")
     if layer.combo:
-        lines.append(f'<text class="combo-text" x="410" y="298">{escape(layer.combo)}</text>')
+        lines.append(f'<text class="combo-text" x="410" y="{COMBO_Y}">{escape(layer.combo)}</text>')
     lines.append("</g>")
     return "\n".join(lines)
 
@@ -510,10 +522,10 @@ def generate_drawio() -> str:
                 f"{layer_id}-panel",
                 "",
                 "rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#151b24;strokeColor=#293241;",
-                32,
-                offset_y + 38,
-                756,
-                274,
+                PANEL_X,
+                offset_y + PANEL_Y,
+                PANEL_W,
+                PANEL_H,
             )
         )
         cells.append(
@@ -522,7 +534,7 @@ def generate_drawio() -> str:
                 escape(layer.name),
                 "text;html=1;strokeColor=none;fillColor=none;fontColor=#ffffff;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;",
                 328,
-                offset_y + 48,
+                offset_y + TITLE_Y - 14,
                 164,
                 24,
             )
@@ -533,7 +545,7 @@ def generate_drawio() -> str:
                 escape(layer.note),
                 "text;html=1;strokeColor=none;fillColor=none;fontColor=#aeb8c6;fontSize=12;align=center;verticalAlign=middle;",
                 210,
-                offset_y + 70,
+                offset_y + NOTE_Y - 12,
                 400,
                 24,
             )
@@ -545,7 +557,7 @@ def generate_drawio() -> str:
                     escape(layer.combo),
                     "text;html=1;strokeColor=none;fillColor=none;fontColor=#aeb8c6;fontSize=11;align=center;verticalAlign=middle;",
                     118,
-                    offset_y + 284,
+                    offset_y + COMBO_Y - 10,
                     584,
                     20,
                 )
@@ -558,7 +570,7 @@ def generate_drawio() -> str:
                     drawio_value(key),
                     DRAWIO_STYLE[key.style],
                     x,
-                    offset_y + y,
+                    offset_y + y + KEY_OFFSET_Y,
                     KEY_W,
                     KEY_H,
                 )

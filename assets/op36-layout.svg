@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="2038" viewBox="0 0 820 2038" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="2856" viewBox="0 0 820 2856" role="img" aria-labelledby="title desc">
 <title id="title">OP36 keymap layout</title>
 <desc id="desc">Six-layer layout diagram for the Ergohaven OP36 ZMK keymap.</desc>
 <defs>
@@ -31,287 +31,287 @@
   .key-text-dark-small { fill: #111820; font: 700 10px Verdana, Arial, sans-serif; text-anchor: middle; dominant-baseline: middle; }
   .key-subtext { fill: #cbd5e1; font: 9px Verdana, Arial, sans-serif; text-anchor: middle; dominant-baseline: middle; }
 </style>
-<rect class="sheet" x="0" y="0" width="820" height="2038"/>
+<rect class="sheet" x="0" y="0" width="820" height="2856"/>
 <g id="base-layer" transform="translate(0 0)">
-<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>
-<rect class="bar-base" x="52" y="54" width="6" height="242" rx="3"/>
+<rect class="layer-panel" x="32" y="38" width="756" height="404" rx="18"/>
+<rect class="bar-base" x="52" y="54" width="6" height="372" rx="3"/>
 <text class="title-text" x="410" y="62">Base</text>
-<text class="note-text" x="410" y="84">QWERTY with balanced home row mods</text>
+<text class="note-text" x="410" y="88">QWERTY with balanced home row mods</text>
 
-<g transform="translate(80 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Q</text></g>
-<g transform="translate(132 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">W</text></g>
-<g transform="translate(184 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">E</text></g>
-<g transform="translate(236 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">R</text></g>
-<g transform="translate(288 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">T</text></g>
-<g transform="translate(484 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Y</text></g>
-<g transform="translate(536 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">U</text></g>
-<g transform="translate(588 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">I</text></g>
-<g transform="translate(640 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">O</text></g>
-<g transform="translate(692 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">P</text></g>
+<g transform="translate(80 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Q</text></g>
+<g transform="translate(132 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">W</text></g>
+<g transform="translate(184 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">E</text></g>
+<g transform="translate(236 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">R</text></g>
+<g transform="translate(288 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">T</text></g>
+<g transform="translate(484 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Y</text></g>
+<g transform="translate(536 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">U</text></g>
+<g transform="translate(588 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">I</text></g>
+<g transform="translate(640 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">O</text></g>
+<g transform="translate(692 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">P</text></g>
 
-<g transform="translate(80 156)"><use href="#key-normal"/><text class="key-text" x="24" y="18">A</text><text class="key-subtext" x="24" y="32">Sft</text></g>
-<g transform="translate(132 131)"><use href="#key-normal"/><text class="key-text" x="24" y="18">S</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
-<g transform="translate(184 116)"><use href="#key-normal"/><text class="key-text" x="24" y="18">D</text><text class="key-subtext" x="24" y="32">Gui</text></g>
-<g transform="translate(236 131)"><use href="#key-normal"/><text class="key-text" x="24" y="18">F</text><text class="key-subtext" x="24" y="32">Alt</text></g>
-<g transform="translate(288 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">G</text></g>
-<g transform="translate(484 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">H</text></g>
-<g transform="translate(536 131)"><use href="#key-normal"/><text class="key-text" x="24" y="18">J</text><text class="key-subtext" x="24" y="32">Alt</text></g>
-<g transform="translate(588 116)"><use href="#key-normal"/><text class="key-text" x="24" y="18">K</text><text class="key-subtext" x="24" y="32">Gui</text></g>
-<g transform="translate(640 131)"><use href="#key-normal"/><text class="key-text" x="24" y="18">L</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
-<g transform="translate(692 156)"><use href="#key-normal"/><text class="key-text" x="24" y="18">;</text><text class="key-subtext" x="24" y="32">Sft</text></g>
+<g transform="translate(80 218)"><use href="#key-normal"/><text class="key-text" x="24" y="18">A</text><text class="key-subtext" x="24" y="32">Sft</text></g>
+<g transform="translate(132 193)"><use href="#key-normal"/><text class="key-text" x="24" y="18">S</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
+<g transform="translate(184 178)"><use href="#key-normal"/><text class="key-text" x="24" y="18">D</text><text class="key-subtext" x="24" y="32">Gui</text></g>
+<g transform="translate(236 193)"><use href="#key-normal"/><text class="key-text" x="24" y="18">F</text><text class="key-subtext" x="24" y="32">Alt</text></g>
+<g transform="translate(288 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">G</text></g>
+<g transform="translate(484 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">H</text></g>
+<g transform="translate(536 193)"><use href="#key-normal"/><text class="key-text" x="24" y="18">J</text><text class="key-subtext" x="24" y="32">Alt</text></g>
+<g transform="translate(588 178)"><use href="#key-normal"/><text class="key-text" x="24" y="18">K</text><text class="key-subtext" x="24" y="32">Gui</text></g>
+<g transform="translate(640 193)"><use href="#key-normal"/><text class="key-text" x="24" y="18">L</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
+<g transform="translate(692 218)"><use href="#key-normal"/><text class="key-text" x="24" y="18">;</text><text class="key-subtext" x="24" y="32">Sft</text></g>
 
-<g transform="translate(80 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Z</text></g>
-<g transform="translate(132 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">X</text></g>
-<g transform="translate(184 162)"><use href="#key-normal"/><text class="key-text" x="24" y="21">C</text></g>
-<g transform="translate(236 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">V</text></g>
-<g transform="translate(288 185)"><use href="#key-normal"/><text class="key-text" x="24" y="21">B</text></g>
-<g transform="translate(484 185)"><use href="#key-normal"/><text class="key-text" x="24" y="21">N</text></g>
-<g transform="translate(536 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">M</text></g>
-<g transform="translate(588 162)"><use href="#key-normal"/><text class="key-text" x="24" y="21">,</text></g>
-<g transform="translate(640 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">.</text></g>
-<g transform="translate(692 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">/</text></g>
+<g transform="translate(80 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Z</text></g>
+<g transform="translate(132 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">X</text></g>
+<g transform="translate(184 224)"><use href="#key-normal"/><text class="key-text" x="24" y="21">C</text></g>
+<g transform="translate(236 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">V</text></g>
+<g transform="translate(288 247)"><use href="#key-normal"/><text class="key-text" x="24" y="21">B</text></g>
+<g transform="translate(484 247)"><use href="#key-normal"/><text class="key-text" x="24" y="21">N</text></g>
+<g transform="translate(536 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">M</text></g>
+<g transform="translate(588 224)"><use href="#key-normal"/><text class="key-text" x="24" y="21">,</text></g>
+<g transform="translate(640 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">.</text></g>
+<g transform="translate(692 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">/</text></g>
 
-<g transform="translate(242 252)"><use href="#key-empty"/></g>
-<g transform="translate(300 267) rotate(15 24 21)"><use href="#key-layer-red"/><text class="key-text" x="24" y="21">Sym</text></g>
-<g transform="translate(360 284) rotate(25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Space</text></g>
-<g transform="translate(464 284) rotate(-25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Enter</text></g>
-<g transform="translate(524 267) rotate(-15 24 21)"><use href="#key-layer-gold"/><text class="key-text-dark" x="24" y="21">Nav</text></g>
-<g transform="translate(582 252)"><use href="#key-empty"/></g>
-<text class="combo-text" x="410" y="298">Combos: D+K Esc | A+; Caps | E+I Lang | U+P Adj L | Q+R Adj R | Z+/ Plain</text>
+<g transform="translate(242 314)"><use href="#key-empty"/></g>
+<g transform="translate(300 329) rotate(15 24 21)"><use href="#key-layer-red"/><text class="key-text" x="24" y="21">Sym</text></g>
+<g transform="translate(360 346) rotate(25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Space</text></g>
+<g transform="translate(464 346) rotate(-25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Enter</text></g>
+<g transform="translate(524 329) rotate(-15 24 21)"><use href="#key-layer-gold"/><text class="key-text-dark" x="24" y="21">Nav</text></g>
+<g transform="translate(582 314)"><use href="#key-empty"/></g>
+<text class="combo-text" x="410" y="420">Combos: D+K Esc | A+; Caps | E+I Lang | U+P Adj L | Q+R Adj R | Z+/ Plain</text>
 </g>
 
-<g id="plain-base-layer" transform="translate(0 330)">
-<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>
-<rect class="bar-base" x="52" y="54" width="6" height="242" rx="3"/>
+<g id="plain-base-layer" transform="translate(0 466)">
+<rect class="layer-panel" x="32" y="38" width="756" height="404" rx="18"/>
+<rect class="bar-base" x="52" y="54" width="6" height="372" rx="3"/>
 <text class="title-text" x="410" y="62">Base plain</text>
-<text class="note-text" x="410" y="84">Toggle Z+/ combo; QWERTY without home row mods</text>
+<text class="note-text" x="410" y="88">Toggle Z+/ combo; QWERTY without home row mods</text>
 
-<g transform="translate(80 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Q</text></g>
-<g transform="translate(132 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">W</text></g>
-<g transform="translate(184 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">E</text></g>
-<g transform="translate(236 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">R</text></g>
-<g transform="translate(288 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">T</text></g>
-<g transform="translate(484 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Y</text></g>
-<g transform="translate(536 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">U</text></g>
-<g transform="translate(588 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">I</text></g>
-<g transform="translate(640 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">O</text></g>
-<g transform="translate(692 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">P</text></g>
+<g transform="translate(80 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Q</text></g>
+<g transform="translate(132 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">W</text></g>
+<g transform="translate(184 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">E</text></g>
+<g transform="translate(236 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">R</text></g>
+<g transform="translate(288 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">T</text></g>
+<g transform="translate(484 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Y</text></g>
+<g transform="translate(536 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">U</text></g>
+<g transform="translate(588 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">I</text></g>
+<g transform="translate(640 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">O</text></g>
+<g transform="translate(692 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">P</text></g>
 
-<g transform="translate(80 156)"><use href="#key-normal"/><text class="key-text" x="24" y="21">A</text></g>
-<g transform="translate(132 131)"><use href="#key-normal"/><text class="key-text" x="24" y="21">S</text></g>
-<g transform="translate(184 116)"><use href="#key-normal"/><text class="key-text" x="24" y="21">D</text></g>
-<g transform="translate(236 131)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F</text></g>
-<g transform="translate(288 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">G</text></g>
-<g transform="translate(484 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">H</text></g>
-<g transform="translate(536 131)"><use href="#key-normal"/><text class="key-text" x="24" y="21">J</text></g>
-<g transform="translate(588 116)"><use href="#key-normal"/><text class="key-text" x="24" y="21">K</text></g>
-<g transform="translate(640 131)"><use href="#key-normal"/><text class="key-text" x="24" y="21">L</text></g>
-<g transform="translate(692 156)"><use href="#key-normal"/><text class="key-text" x="24" y="21">;</text></g>
+<g transform="translate(80 218)"><use href="#key-normal"/><text class="key-text" x="24" y="21">A</text></g>
+<g transform="translate(132 193)"><use href="#key-normal"/><text class="key-text" x="24" y="21">S</text></g>
+<g transform="translate(184 178)"><use href="#key-normal"/><text class="key-text" x="24" y="21">D</text></g>
+<g transform="translate(236 193)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F</text></g>
+<g transform="translate(288 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">G</text></g>
+<g transform="translate(484 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">H</text></g>
+<g transform="translate(536 193)"><use href="#key-normal"/><text class="key-text" x="24" y="21">J</text></g>
+<g transform="translate(588 178)"><use href="#key-normal"/><text class="key-text" x="24" y="21">K</text></g>
+<g transform="translate(640 193)"><use href="#key-normal"/><text class="key-text" x="24" y="21">L</text></g>
+<g transform="translate(692 218)"><use href="#key-normal"/><text class="key-text" x="24" y="21">;</text></g>
 
-<g transform="translate(80 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Z</text></g>
-<g transform="translate(132 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">X</text></g>
-<g transform="translate(184 162)"><use href="#key-normal"/><text class="key-text" x="24" y="21">C</text></g>
-<g transform="translate(236 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">V</text></g>
-<g transform="translate(288 185)"><use href="#key-normal"/><text class="key-text" x="24" y="21">B</text></g>
-<g transform="translate(484 185)"><use href="#key-normal"/><text class="key-text" x="24" y="21">N</text></g>
-<g transform="translate(536 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">M</text></g>
-<g transform="translate(588 162)"><use href="#key-normal"/><text class="key-text" x="24" y="21">,</text></g>
-<g transform="translate(640 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">.</text></g>
-<g transform="translate(692 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">/</text></g>
+<g transform="translate(80 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">Z</text></g>
+<g transform="translate(132 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">X</text></g>
+<g transform="translate(184 224)"><use href="#key-normal"/><text class="key-text" x="24" y="21">C</text></g>
+<g transform="translate(236 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">V</text></g>
+<g transform="translate(288 247)"><use href="#key-normal"/><text class="key-text" x="24" y="21">B</text></g>
+<g transform="translate(484 247)"><use href="#key-normal"/><text class="key-text" x="24" y="21">N</text></g>
+<g transform="translate(536 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">M</text></g>
+<g transform="translate(588 224)"><use href="#key-normal"/><text class="key-text" x="24" y="21">,</text></g>
+<g transform="translate(640 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">.</text></g>
+<g transform="translate(692 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">/</text></g>
 
-<g transform="translate(242 252)"><use href="#key-empty"/></g>
-<g transform="translate(300 267) rotate(15 24 21)"><use href="#key-layer-red"/><text class="key-text" x="24" y="21">Sym</text></g>
-<g transform="translate(360 284) rotate(25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Space</text></g>
-<g transform="translate(464 284) rotate(-25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Enter</text></g>
-<g transform="translate(524 267) rotate(-15 24 21)"><use href="#key-layer-gold"/><text class="key-text-dark" x="24" y="21">Nav</text></g>
-<g transform="translate(582 252)"><use href="#key-empty"/></g>
+<g transform="translate(242 314)"><use href="#key-empty"/></g>
+<g transform="translate(300 329) rotate(15 24 21)"><use href="#key-layer-red"/><text class="key-text" x="24" y="21">Sym</text></g>
+<g transform="translate(360 346) rotate(25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Space</text></g>
+<g transform="translate(464 346) rotate(-25 24 21)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Enter</text></g>
+<g transform="translate(524 329) rotate(-15 24 21)"><use href="#key-layer-gold"/><text class="key-text-dark" x="24" y="21">Nav</text></g>
+<g transform="translate(582 314)"><use href="#key-empty"/></g>
 </g>
 
-<g id="symbols-layer" transform="translate(0 660)">
-<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>
-<rect class="bar-sym" x="52" y="54" width="6" height="242" rx="3"/>
+<g id="symbols-layer" transform="translate(0 932)">
+<rect class="layer-panel" x="32" y="38" width="756" height="404" rx="18"/>
+<rect class="bar-sym" x="52" y="54" width="6" height="372" rx="3"/>
 <text class="title-text" x="410" y="62">Symbols</text>
-<text class="note-text" x="410" y="84">Hold left thumb from Base</text>
+<text class="note-text" x="410" y="88">Hold left thumb from Base</text>
 
-<g transform="translate(80 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">!</text></g>
-<g transform="translate(132 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">@</text></g>
-<g transform="translate(184 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">#</text></g>
-<g transform="translate(236 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">$</text></g>
-<g transform="translate(288 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">%</text></g>
-<g transform="translate(484 93)"><use href="#key-empty"/></g>
-<g transform="translate(536 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">&amp;</text></g>
-<g transform="translate(588 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">*</text></g>
-<g transform="translate(640 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">(</text></g>
-<g transform="translate(692 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">)</text></g>
+<g transform="translate(80 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">!</text></g>
+<g transform="translate(132 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">@</text></g>
+<g transform="translate(184 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">#</text></g>
+<g transform="translate(236 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">$</text></g>
+<g transform="translate(288 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">%</text></g>
+<g transform="translate(484 155)"><use href="#key-empty"/></g>
+<g transform="translate(536 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">&amp;</text></g>
+<g transform="translate(588 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">*</text></g>
+<g transform="translate(640 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">(</text></g>
+<g transform="translate(692 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">)</text></g>
 
-<g transform="translate(80 156)"><use href="#key-special"/><text class="key-text" x="24" y="18">Esc</text><text class="key-subtext" x="24" y="32">Sft</text></g>
-<g transform="translate(132 131)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LCtl</text></g>
-<g transform="translate(184 116)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LGui</text></g>
-<g transform="translate(236 131)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LAlt</text></g>
-<g transform="translate(288 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">^</text></g>
-<g transform="translate(484 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">-</text></g>
-<g transform="translate(536 131)"><use href="#key-normal"/><text class="key-text" x="24" y="18">=</text><text class="key-subtext" x="24" y="32">Alt</text></g>
-<g transform="translate(588 116)"><use href="#key-normal"/><text class="key-text" x="24" y="18">{</text><text class="key-subtext" x="24" y="32">Gui</text></g>
-<g transform="translate(640 131)"><use href="#key-normal"/><text class="key-text" x="24" y="18">}</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
-<g transform="translate(692 156)"><use href="#key-normal"/><text class="key-text" x="24" y="18">&#x27;</text><text class="key-subtext" x="24" y="32">Sft</text></g>
+<g transform="translate(80 218)"><use href="#key-special"/><text class="key-text" x="24" y="18">Esc</text><text class="key-subtext" x="24" y="32">Sft</text></g>
+<g transform="translate(132 193)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LCtl</text></g>
+<g transform="translate(184 178)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LGui</text></g>
+<g transform="translate(236 193)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LAlt</text></g>
+<g transform="translate(288 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">^</text></g>
+<g transform="translate(484 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">-</text></g>
+<g transform="translate(536 193)"><use href="#key-normal"/><text class="key-text" x="24" y="18">=</text><text class="key-subtext" x="24" y="32">Alt</text></g>
+<g transform="translate(588 178)"><use href="#key-normal"/><text class="key-text" x="24" y="18">{</text><text class="key-subtext" x="24" y="32">Gui</text></g>
+<g transform="translate(640 193)"><use href="#key-normal"/><text class="key-text" x="24" y="18">}</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
+<g transform="translate(692 218)"><use href="#key-normal"/><text class="key-text" x="24" y="18">&#x27;</text><text class="key-subtext" x="24" y="32">Sft</text></g>
 
-<g transform="translate(80 202)"><use href="#key-special"/><text class="key-text" x="24" y="21">Tab</text></g>
-<g transform="translate(132 177)"><use href="#key-empty"/></g>
-<g transform="translate(184 162)"><use href="#key-empty"/></g>
-<g transform="translate(236 177)"><use href="#key-empty"/></g>
-<g transform="translate(288 185)"><use href="#key-empty"/></g>
-<g transform="translate(484 185)"><use href="#key-empty"/></g>
-<g transform="translate(536 177)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Bspc</text></g>
-<g transform="translate(588 162)"><use href="#key-normal"/><text class="key-text" x="24" y="21">[</text></g>
-<g transform="translate(640 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">]</text></g>
-<g transform="translate(692 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">\</text></g>
+<g transform="translate(80 264)"><use href="#key-special"/><text class="key-text" x="24" y="21">Tab</text></g>
+<g transform="translate(132 239)"><use href="#key-empty"/></g>
+<g transform="translate(184 224)"><use href="#key-empty"/></g>
+<g transform="translate(236 239)"><use href="#key-empty"/></g>
+<g transform="translate(288 247)"><use href="#key-empty"/></g>
+<g transform="translate(484 247)"><use href="#key-empty"/></g>
+<g transform="translate(536 239)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Bspc</text></g>
+<g transform="translate(588 224)"><use href="#key-normal"/><text class="key-text" x="24" y="21">[</text></g>
+<g transform="translate(640 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">]</text></g>
+<g transform="translate(692 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">\</text></g>
 
-<g transform="translate(242 252)"><use href="#key-empty"/></g>
-<g transform="translate(300 267) rotate(15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(360 284) rotate(25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(464 284) rotate(-25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(524 267) rotate(-15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(582 252)"><use href="#key-empty"/></g>
+<g transform="translate(242 314)"><use href="#key-empty"/></g>
+<g transform="translate(300 329) rotate(15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(360 346) rotate(25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(464 346) rotate(-25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(524 329) rotate(-15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(582 314)"><use href="#key-empty"/></g>
 </g>
 
-<g id="nav-layer" transform="translate(0 990)">
-<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>
-<rect class="bar-nav" x="52" y="54" width="6" height="242" rx="3"/>
+<g id="nav-layer" transform="translate(0 1398)">
+<rect class="layer-panel" x="32" y="38" width="756" height="404" rx="18"/>
+<rect class="bar-nav" x="52" y="54" width="6" height="372" rx="3"/>
 <text class="title-text" x="410" y="62">Nav</text>
-<text class="note-text" x="410" y="84">Hold right thumb from Base</text>
+<text class="note-text" x="410" y="88">Hold right thumb from Base</text>
 
-<g transform="translate(80 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">1</text></g>
-<g transform="translate(132 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">2</text></g>
-<g transform="translate(184 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">3</text></g>
-<g transform="translate(236 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">4</text></g>
-<g transform="translate(288 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">5</text></g>
-<g transform="translate(484 93)"><use href="#key-normal"/><text class="key-text" x="24" y="21">6</text></g>
-<g transform="translate(536 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">7</text></g>
-<g transform="translate(588 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">8</text></g>
-<g transform="translate(640 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">9</text></g>
-<g transform="translate(692 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">0</text></g>
+<g transform="translate(80 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">1</text></g>
+<g transform="translate(132 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">2</text></g>
+<g transform="translate(184 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">3</text></g>
+<g transform="translate(236 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">4</text></g>
+<g transform="translate(288 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">5</text></g>
+<g transform="translate(484 155)"><use href="#key-normal"/><text class="key-text" x="24" y="21">6</text></g>
+<g transform="translate(536 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">7</text></g>
+<g transform="translate(588 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">8</text></g>
+<g transform="translate(640 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">9</text></g>
+<g transform="translate(692 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">0</text></g>
 
-<g transform="translate(80 156)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LSft</text></g>
-<g transform="translate(132 131)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LCtl</text></g>
-<g transform="translate(184 116)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LGui</text></g>
-<g transform="translate(236 131)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LAlt</text></g>
-<g transform="translate(288 139)"><use href="#key-normal"/><text class="key-text" x="24" y="21">6</text></g>
-<g transform="translate(484 139)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Left</text></g>
-<g transform="translate(536 131)"><use href="#key-special"/><text class="key-text-small" x="24" y="18">Down</text><text class="key-subtext" x="24" y="32">Alt</text></g>
-<g transform="translate(588 116)"><use href="#key-special"/><text class="key-text" x="24" y="18">Up</text><text class="key-subtext" x="24" y="32">Gui</text></g>
-<g transform="translate(640 131)"><use href="#key-special"/><text class="key-text-small" x="24" y="18">Right</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
-<g transform="translate(692 156)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">RSft</text></g>
+<g transform="translate(80 218)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LSft</text></g>
+<g transform="translate(132 193)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LCtl</text></g>
+<g transform="translate(184 178)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LGui</text></g>
+<g transform="translate(236 193)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">LAlt</text></g>
+<g transform="translate(288 201)"><use href="#key-normal"/><text class="key-text" x="24" y="21">6</text></g>
+<g transform="translate(484 201)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Left</text></g>
+<g transform="translate(536 193)"><use href="#key-special"/><text class="key-text-small" x="24" y="18">Down</text><text class="key-subtext" x="24" y="32">Alt</text></g>
+<g transform="translate(588 178)"><use href="#key-special"/><text class="key-text" x="24" y="18">Up</text><text class="key-subtext" x="24" y="32">Gui</text></g>
+<g transform="translate(640 193)"><use href="#key-special"/><text class="key-text-small" x="24" y="18">Right</text><text class="key-subtext" x="24" y="32">Ctl</text></g>
+<g transform="translate(692 218)"><use href="#key-normal"/><text class="key-text-small" x="24" y="21">RSft</text></g>
 
-<g transform="translate(80 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">`</text></g>
-<g transform="translate(132 177)"><use href="#key-empty"/></g>
-<g transform="translate(184 162)"><use href="#key-empty"/></g>
-<g transform="translate(236 177)"><use href="#key-special"/><text class="key-text" x="24" y="21">Del</text></g>
-<g transform="translate(288 185)"><use href="#key-empty"/></g>
-<g transform="translate(484 185)"><use href="#key-empty"/></g>
-<g transform="translate(536 177)"><use href="#key-empty"/></g>
-<g transform="translate(588 162)"><use href="#key-empty"/></g>
-<g transform="translate(640 177)"><use href="#key-empty"/></g>
-<g transform="translate(692 202)"><use href="#key-empty"/></g>
+<g transform="translate(80 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">`</text></g>
+<g transform="translate(132 239)"><use href="#key-empty"/></g>
+<g transform="translate(184 224)"><use href="#key-empty"/></g>
+<g transform="translate(236 239)"><use href="#key-special"/><text class="key-text" x="24" y="21">Del</text></g>
+<g transform="translate(288 247)"><use href="#key-empty"/></g>
+<g transform="translate(484 247)"><use href="#key-empty"/></g>
+<g transform="translate(536 239)"><use href="#key-empty"/></g>
+<g transform="translate(588 224)"><use href="#key-empty"/></g>
+<g transform="translate(640 239)"><use href="#key-empty"/></g>
+<g transform="translate(692 264)"><use href="#key-empty"/></g>
 
-<g transform="translate(242 252)"><use href="#key-empty"/></g>
-<g transform="translate(300 267) rotate(15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(360 284) rotate(25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(464 284) rotate(-25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(524 267) rotate(-15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(582 252)"><use href="#key-empty"/></g>
+<g transform="translate(242 314)"><use href="#key-empty"/></g>
+<g transform="translate(300 329) rotate(15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(360 346) rotate(25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(464 346) rotate(-25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(524 329) rotate(-15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(582 314)"><use href="#key-empty"/></g>
 </g>
 
-<g id="adjust-left-layer" transform="translate(0 1320)">
-<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>
-<rect class="bar-adj" x="52" y="54" width="6" height="242" rx="3"/>
+<g id="adjust-left-layer" transform="translate(0 1864)">
+<rect class="layer-panel" x="32" y="38" width="756" height="404" rx="18"/>
+<rect class="bar-adj" x="52" y="54" width="6" height="372" rx="3"/>
 <text class="title-text" x="410" y="62">Adjust L</text>
-<text class="note-text" x="410" y="84">Hold U+P combo</text>
+<text class="note-text" x="410" y="88">Hold U+P combo</text>
 
-<g transform="translate(80 110)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F1</text></g>
-<g transform="translate(132 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F2</text></g>
-<g transform="translate(184 70)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F3</text></g>
-<g transform="translate(236 85)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F4</text></g>
-<g transform="translate(288 93)"><use href="#key-empty"/></g>
-<g transform="translate(484 93)"><use href="#key-empty"/></g>
-<g transform="translate(536 85)"><use href="#key-empty"/></g>
-<g transform="translate(588 70)"><use href="#key-empty"/></g>
-<g transform="translate(640 85)"><use href="#key-empty"/></g>
-<g transform="translate(692 110)"><use href="#key-empty"/></g>
+<g transform="translate(80 172)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F1</text></g>
+<g transform="translate(132 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F2</text></g>
+<g transform="translate(184 132)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F3</text></g>
+<g transform="translate(236 147)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F4</text></g>
+<g transform="translate(288 155)"><use href="#key-empty"/></g>
+<g transform="translate(484 155)"><use href="#key-empty"/></g>
+<g transform="translate(536 147)"><use href="#key-empty"/></g>
+<g transform="translate(588 132)"><use href="#key-empty"/></g>
+<g transform="translate(640 147)"><use href="#key-empty"/></g>
+<g transform="translate(692 172)"><use href="#key-empty"/></g>
 
-<g transform="translate(80 156)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F5</text></g>
-<g transform="translate(132 131)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F6</text></g>
-<g transform="translate(184 116)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F7</text></g>
-<g transform="translate(236 131)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F8</text></g>
-<g transform="translate(288 139)"><use href="#key-empty"/></g>
-<g transform="translate(484 139)"><use href="#key-empty"/></g>
-<g transform="translate(536 131)"><use href="#key-empty"/></g>
-<g transform="translate(588 116)"><use href="#key-empty"/></g>
-<g transform="translate(640 131)"><use href="#key-empty"/></g>
-<g transform="translate(692 156)"><use href="#key-empty"/></g>
+<g transform="translate(80 218)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F5</text></g>
+<g transform="translate(132 193)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F6</text></g>
+<g transform="translate(184 178)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F7</text></g>
+<g transform="translate(236 193)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F8</text></g>
+<g transform="translate(288 201)"><use href="#key-empty"/></g>
+<g transform="translate(484 201)"><use href="#key-empty"/></g>
+<g transform="translate(536 193)"><use href="#key-empty"/></g>
+<g transform="translate(588 178)"><use href="#key-empty"/></g>
+<g transform="translate(640 193)"><use href="#key-empty"/></g>
+<g transform="translate(692 218)"><use href="#key-empty"/></g>
 
-<g transform="translate(80 202)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F9</text></g>
-<g transform="translate(132 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F10</text></g>
-<g transform="translate(184 162)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F11</text></g>
-<g transform="translate(236 177)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F12</text></g>
-<g transform="translate(288 185)"><use href="#key-empty"/></g>
-<g transform="translate(484 185)"><use href="#key-empty"/></g>
-<g transform="translate(536 177)"><use href="#key-empty"/></g>
-<g transform="translate(588 162)"><use href="#key-empty"/></g>
-<g transform="translate(640 177)"><use href="#key-empty"/></g>
-<g transform="translate(692 202)"><use href="#key-empty"/></g>
+<g transform="translate(80 264)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F9</text></g>
+<g transform="translate(132 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F10</text></g>
+<g transform="translate(184 224)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F11</text></g>
+<g transform="translate(236 239)"><use href="#key-normal"/><text class="key-text" x="24" y="21">F12</text></g>
+<g transform="translate(288 247)"><use href="#key-empty"/></g>
+<g transform="translate(484 247)"><use href="#key-empty"/></g>
+<g transform="translate(536 239)"><use href="#key-empty"/></g>
+<g transform="translate(588 224)"><use href="#key-empty"/></g>
+<g transform="translate(640 239)"><use href="#key-empty"/></g>
+<g transform="translate(692 264)"><use href="#key-empty"/></g>
 
-<g transform="translate(242 252)"><use href="#key-empty"/></g>
-<g transform="translate(300 267) rotate(15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(360 284) rotate(25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(464 284) rotate(-25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(524 267) rotate(-15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(582 252)"><use href="#key-empty"/></g>
+<g transform="translate(242 314)"><use href="#key-empty"/></g>
+<g transform="translate(300 329) rotate(15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(360 346) rotate(25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(464 346) rotate(-25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(524 329) rotate(-15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(582 314)"><use href="#key-empty"/></g>
 </g>
 
-<g id="adjust-right-layer" transform="translate(0 1650)">
-<rect class="layer-panel" x="32" y="38" width="756" height="274" rx="18"/>
-<rect class="bar-adj" x="52" y="54" width="6" height="242" rx="3"/>
+<g id="adjust-right-layer" transform="translate(0 2330)">
+<rect class="layer-panel" x="32" y="38" width="756" height="404" rx="18"/>
+<rect class="bar-adj" x="52" y="54" width="6" height="372" rx="3"/>
 <text class="title-text" x="410" y="62">Adjust R</text>
-<text class="note-text" x="410" y="84">Hold Q+R combo</text>
+<text class="note-text" x="410" y="88">Hold Q+R combo</text>
 
-<g transform="translate(80 110)"><use href="#key-empty"/></g>
-<g transform="translate(132 85)"><use href="#key-empty"/></g>
-<g transform="translate(184 70)"><use href="#key-empty"/></g>
-<g transform="translate(236 85)"><use href="#key-empty"/></g>
-<g transform="translate(288 93)"><use href="#key-empty"/></g>
-<g transform="translate(484 93)"><use href="#key-empty"/></g>
-<g transform="translate(536 85)"><use href="#key-empty"/></g>
-<g transform="translate(588 70)"><use href="#key-empty"/></g>
-<g transform="translate(640 85)"><use href="#key-empty"/></g>
-<g transform="translate(692 110)"><use href="#key-empty"/></g>
+<g transform="translate(80 172)"><use href="#key-empty"/></g>
+<g transform="translate(132 147)"><use href="#key-empty"/></g>
+<g transform="translate(184 132)"><use href="#key-empty"/></g>
+<g transform="translate(236 147)"><use href="#key-empty"/></g>
+<g transform="translate(288 155)"><use href="#key-empty"/></g>
+<g transform="translate(484 155)"><use href="#key-empty"/></g>
+<g transform="translate(536 147)"><use href="#key-empty"/></g>
+<g transform="translate(588 132)"><use href="#key-empty"/></g>
+<g transform="translate(640 147)"><use href="#key-empty"/></g>
+<g transform="translate(692 172)"><use href="#key-empty"/></g>
 
-<g transform="translate(80 156)"><use href="#key-empty"/></g>
-<g transform="translate(132 131)"><use href="#key-empty"/></g>
-<g transform="translate(184 116)"><use href="#key-empty"/></g>
-<g transform="translate(236 131)"><use href="#key-empty"/></g>
-<g transform="translate(288 139)"><use href="#key-empty"/></g>
-<g transform="translate(484 139)"><use href="#key-empty"/></g>
-<g transform="translate(536 131)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Vol-</text></g>
-<g transform="translate(588 116)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Mute</text></g>
-<g transform="translate(640 131)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Vol+</text></g>
-<g transform="translate(692 156)"><use href="#key-empty"/></g>
+<g transform="translate(80 218)"><use href="#key-empty"/></g>
+<g transform="translate(132 193)"><use href="#key-empty"/></g>
+<g transform="translate(184 178)"><use href="#key-empty"/></g>
+<g transform="translate(236 193)"><use href="#key-empty"/></g>
+<g transform="translate(288 201)"><use href="#key-empty"/></g>
+<g transform="translate(484 201)"><use href="#key-empty"/></g>
+<g transform="translate(536 193)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Vol-</text></g>
+<g transform="translate(588 178)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Mute</text></g>
+<g transform="translate(640 193)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Vol+</text></g>
+<g transform="translate(692 218)"><use href="#key-empty"/></g>
 
-<g transform="translate(80 202)"><use href="#key-empty"/></g>
-<g transform="translate(132 177)"><use href="#key-empty"/></g>
-<g transform="translate(184 162)"><use href="#key-empty"/></g>
-<g transform="translate(236 177)"><use href="#key-empty"/></g>
-<g transform="translate(288 185)"><use href="#key-empty"/></g>
-<g transform="translate(484 185)"><use href="#key-layer-blue"/><text class="key-text-dark-small" x="24" y="18">BT</text><text class="key-subtext" x="24" y="32">0</text></g>
-<g transform="translate(536 177)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Prev</text></g>
-<g transform="translate(588 162)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Play</text></g>
-<g transform="translate(640 177)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Next</text></g>
-<g transform="translate(692 202)"><use href="#key-layer-blue"/><text class="key-text-dark-small" x="24" y="18">BT</text><text class="key-subtext" x="24" y="32">CLR</text></g>
+<g transform="translate(80 264)"><use href="#key-empty"/></g>
+<g transform="translate(132 239)"><use href="#key-empty"/></g>
+<g transform="translate(184 224)"><use href="#key-empty"/></g>
+<g transform="translate(236 239)"><use href="#key-empty"/></g>
+<g transform="translate(288 247)"><use href="#key-empty"/></g>
+<g transform="translate(484 247)"><use href="#key-layer-blue"/><text class="key-text-dark-small" x="24" y="18">BT</text><text class="key-subtext" x="24" y="32">0</text></g>
+<g transform="translate(536 239)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Prev</text></g>
+<g transform="translate(588 224)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Play</text></g>
+<g transform="translate(640 239)"><use href="#key-special"/><text class="key-text-small" x="24" y="21">Next</text></g>
+<g transform="translate(692 264)"><use href="#key-layer-blue"/><text class="key-text-dark-small" x="24" y="18">BT</text><text class="key-subtext" x="24" y="32">CLR</text></g>
 
-<g transform="translate(242 252)"><use href="#key-empty"/></g>
-<g transform="translate(300 267) rotate(15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(360 284) rotate(25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(464 284) rotate(-25 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(524 267) rotate(-15 24 21)"><use href="#key-empty"/></g>
-<g transform="translate(582 252)"><use href="#key-empty"/></g>
+<g transform="translate(242 314)"><use href="#key-empty"/></g>
+<g transform="translate(300 329) rotate(15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(360 346) rotate(25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(464 346) rotate(-25 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(524 329) rotate(-15 24 21)"><use href="#key-empty"/></g>
+<g transform="translate(582 314)"><use href="#key-empty"/></g>
 </g>
 </svg>
